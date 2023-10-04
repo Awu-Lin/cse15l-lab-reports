@@ -58,7 +58,7 @@
    see Hello.java as an example\
    ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/5a2a23cf-eb9e-479f-b959-0291897f8353)\
    **Working Directory:** lecture1.\
-   **Explanation:** `cat` displays the contents of the Hello.java file.
+   **Explanation:** `cat` displays the contents of the Hello.java file.\
    **Output:** Not an Error
 
 
