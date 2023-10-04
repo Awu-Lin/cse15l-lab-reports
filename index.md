@@ -19,25 +19,25 @@
    **Explanation:** We cannot use `cd` with a file.\
    **Output:** Error, because `Hello.java` is a file, not a directory.
 
-4. `is` with no arguments:
+4. `ls` with no arguments:
      Lists the contents of the current directory.\
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/c1677ff6-cfc0-44d1-9c90-bf4be7b7f5d8)\
 **Working Directory:** /home.\
-**Explanation:** `is` displays all the files and directories in the current directory.\
+**Explanation:** `ls` displays all the files and directories in the current directory.\
 **Output:** Not an Error
 
-5. `is` with a path to a directory as an argument:
+5. `ls` with a path to a directory as an argument:
      Same with `cd`, see lecture1 as an example\
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/59ac3837-365f-44d8-befa-bf49fb939b8a)\
 **Working Directory:** /home.\
-**Explanation:** `is` displays all the files and directories in the target directory, lecture1 in example\
+**Explanation:** `ls` displays all the files and directories in the target directory, lecture1 in example\
 **Output:** Not an Error
 
-6. `is` with a path to a file as an argument:
+6. `ls` with a path to a file as an argument:
    see Hello.java as an example\
    ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/0f4f3bbc-da30-4eb4-94d1-698518b36884)\
    **Working Directory:** /home/lecture1.\
-   **Explanation:** `is` displays the file name.\
+   **Explanation:** `ls` displays the file name.\
    **Output:** Not an Error
 
 7. `cat` with a path to a file as an argument:
