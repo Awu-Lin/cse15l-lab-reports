@@ -15,7 +15,7 @@
 3. `cd` with a path to a file as an argument:
    Trying to change to a file.
    ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/4e716873-1785-47ed-86e1-7c6a857bd5b9)\
-   **Working Directory:** Error.\
+   **Working Directory:** Anywhere in the filesystem cause it is an Error.\
    **Explanation:** We cannot use `cd` with a file.\
    **Output:** Error, because `Hello.java` is a file, not a directory.
 
@@ -50,7 +50,7 @@
 8. `cat` with a path to a directory as an argument:
      Same with `cd` and, see lecture1 as an example\
      ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/396089a6-b021-4fd9-8d5f-18d3cd616d81)\
-     **Working Directory:** home.\
+     **Working Directory:** Anywhere in the filesystem cause it is an Error.\
      **Explanation:** cannot use `cat` on a directory.\
      **Output:** Error
 
