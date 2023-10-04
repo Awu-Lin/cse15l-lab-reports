@@ -1,14 +1,14 @@
 1. `cd` with no arguments:
      The `cd` command with no arguments will take the user to their home directory.
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/6dd14a2a-6619-41fa-8efe-143961fa8a65)\
-**Working Directory:** home.\
+**Working Directory:** /home.\
 **Explanation:** When don't provide any argument to the `cd` command, it will take to the home directory, which is usually `/home/username` for Unix systems.\
 **Output:** Not an error.
 
 2. `cd` with a path to a directory as an argument:
      Let's say you want to change to the `lecture1` directory.
    ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/d7f444c9-6987-44f2-95f7-a4ac926be37d)\
-   **Working Directory:** Lecture 1.\
+   **Working Directory:** /home/Lecture1.\
    **Explanation:** The `cd` command takes to the `lecture1` directory.\
    **Output:** Not an error.
    
@@ -22,21 +22,21 @@
 4. `is` with no arguments:
      Lists the contents of the current directory.\
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/c1677ff6-cfc0-44d1-9c90-bf4be7b7f5d8)\
-**Working Directory:** home.\
+**Working Directory:** /home.\
 **Explanation:** `is` displays all the files and directories in the current directory.\
 **Output:** Not an Error
 
 5. `is` with a path to a directory as an argument:
      Same with `cd`, see lecture1 as an example\
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/59ac3837-365f-44d8-befa-bf49fb939b8a)\
-**Working Directory:** home.\
+**Working Directory:** /home.\
 **Explanation:** `is` displays all the files and directories in the target directory, lecture1 in example\
 **Output:** Not an Error
 
 6. `is` with a path to a file as an argument:
    see Hello.java as an example\
    ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/0f4f3bbc-da30-4eb4-94d1-698518b36884)\
-   **Working Directory:** lecture1.\
+   **Working Directory:** /home/lecture1.\
    **Explanation:** `is` displays the file name.\
    **Output:** Not an Error
 
@@ -57,7 +57,7 @@
 9. `cat` with a path to a file as an argument:
    see Hello.java as an example\
    ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/5a2a23cf-eb9e-479f-b959-0291897f8353)\
-   **Working Directory:** lecture1.\
+   **Working Directory:** /home/lecture1.\
    **Explanation:** `cat` displays the contents of the Hello.java file.\
    **Output:** Not an Error
 
