@@ -42,14 +42,14 @@
 
 7. `cat` with a path to a file as an argument:
    Without arguments, cat will going to expects input from the standard input.\
-   ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/76240d08-1df9-4899-a099-f247484e4c69)
+   ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/76240d08-1df9-4899-a099-f247484e4c69)\
    **Working Directory:** Anywhere in the filesystem cause it waiting for enter\
    **Explanation:** `cat` will wait for input.\
    **Output:** Not an Error, but it will always awaits.
 
 8. `cat` with a path to a directory as an argument:
      Same with `cd` and, see lecture1 as an example\
-     ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/2fe6d5f3-a33a-4aa8-afe1-f39faf933b7a)
+     ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/396089a6-b021-4fd9-8d5f-18d3cd616d81)\
      **Working Directory:** home.\
      **Explanation:** cannot use `cat` on a directory.\
      **Output:** Error
