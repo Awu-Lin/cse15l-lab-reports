@@ -52,7 +52,7 @@
      ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/396089a6-b021-4fd9-8d5f-18d3cd616d81)\
      **Working Directory:** Anywhere in the filesystem cause it is an Error.\
      **Explanation:** cannot use `cat` on a directory.\
-     **Output:** Error
+     **Output:** Error, cause lecture1 is a directory.
 
 9. `cat` with a path to a file as an argument:
    see Hello.java as an example\
