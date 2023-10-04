@@ -1,5 +1,4 @@
-`cd` Command:
-   1. `cd` with no arguments:
+1. `cd` with no arguments:
      The `cd` command with no arguments will take the user to their home directory.
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/6dd14a2a-6619-41fa-8efe-143961fa8a65)\
 **Working Directory:** home.\
@@ -18,13 +17,51 @@
    ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/4e716873-1785-47ed-86e1-7c6a857bd5b9)\
    **Working Directory:** Error.\
    **Explanation:** We cannot use `cd` with a file.\
-   **Output:** Error, because `Hello.java` is a file, not a directory.\
+   **Output:** Error, because `Hello.java` is a file, not a directory.
 
-`is` Command:
-   1. `is` with no arguments:
-     Lists the contents of the current directory.
-![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/828d0c54-a0b0-4ce6-a764-69f0d2077915)\
+4. `is` with no arguments:
+     Lists the contents of the current directory.\
+![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/c1677ff6-cfc0-44d1-9c90-bf4be7b7f5d8)\
 **Working Directory:** home.\
 **Explanation:** `is` displays all the files and directories in the current directory.\
-**Output:** Not an Error\
+**Output:** Not an Error
+
+5. `is` with a path to a directory as an argument:
+     Same with `cd`, see lecture1 as an example\
+![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/59ac3837-365f-44d8-befa-bf49fb939b8a)\
+**Working Directory:** home.\
+**Explanation:** `is` displays all the files and directories in the target directory, lecture1 in example\
+**Output:** Not an Error
+
+6. `is` with a path to a file as an argument:
+   see Hello.java as an example\
+   ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/0f4f3bbc-da30-4eb4-94d1-698518b36884)\
+   **Working Directory:** lecture1.\
+   **Explanation:** `is` displays the file name.\
+   **Output:** Not an Error
+
+7. `cat` with a path to a file as an argument:
+   Without arguments, cat will going to expects input from the standard input.\
+   ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/76240d08-1df9-4899-a099-f247484e4c69)
+   **Working Directory:** Anywhere in the filesystem cause it waiting for enter\
+   **Explanation:** `cat` will wait for input.\
+   **Output:** Not an Error, but it will always awaits.
+
+8. `cat` with a path to a directory as an argument:
+     Same with `cd` and, see lecture1 as an example\
+     ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/2fe6d5f3-a33a-4aa8-afe1-f39faf933b7a)
+     **Working Directory:** home.\
+     **Explanation:** cannot use `cat` on a directory.\
+     **Output:** Error
+
+9. `cat` with a path to a file as an argument:
+   see Hello.java as an example\
+   ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/5a2a23cf-eb9e-479f-b959-0291897f8353)\
+   **Working Directory:** lecture1.\
+   **Explanation:** `cat` displays the contents of the Hello.java file.
+   **Output:** Not an Error
+
+
+
+
 
