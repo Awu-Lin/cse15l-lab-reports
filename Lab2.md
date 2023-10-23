@@ -1,3 +1,7 @@
+## my code
+![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/2a53ccd5-dbe9-4f2d-8cb1-6c5051367293)
+![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/1fcce3d8-7543-44b8-bd14-3ee3de848d65)
+
 ## When enter the command `localhost:4000/add-message?s=Hello`:
 ![GVLYSJU%7X3OE)~1 NQGWO2](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/5c0f937f-73c1-4aa9-bab6-44460053db17)
 
@@ -14,6 +18,8 @@ The `handleRequest` method is called.
 - The value of `count` increases from 0 to 1 as the request is processed.
 - The value of `str` changed from an empty `StringBuilder` object to a `StringBuilder` object containing "1. Hello\n".
 - This is because the logic inside the `handleRequest` method checks to see if the path of the request is `/add-message`, and if it is, it takes the message from the query string, adds it to `str`, and increases the value of `count`.
+
+![f455e3fda9b0039a1bfc858ffe5ae91](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/c7cc1ccb-c789-4f2f-a983-319f28bb8318)
 
 
 ## When enter the command `localhost:4000/add-message?s=How%20are%20you`:
@@ -43,4 +49,5 @@ The `handleRequest` methods are called.
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/98b606fa-c4ad-4854-92c7-08b48482b67b)
 - base on what phtot shows, I enter into my accont successfully without enter password.
 
-
+### Part 3
+- During the week I learned how to use ssh related commands, including starting a service, using code to set up the content of the service, and editing web pages. On the other hand I learned to create private and public keys and use them to authenticate my computer.
