@@ -19,8 +19,6 @@ The `handleRequest` method is called.
 - The value of `str` changed from an empty `StringBuilder` object to a `StringBuilder` object containing "1. Hello\n".
 - This is because the logic inside the `handleRequest` method checks to see if the path of the request is `/add-message`, and if it is, it takes the message from the query string, adds it to `str`, and increases the value of `count`.
 
-![f455e3fda9b0039a1bfc858ffe5ae91](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/c7cc1ccb-c789-4f2f-a983-319f28bb8318)
-
 
 ## When enter the command `localhost:4000/add-message?s=How%20are%20you`:
 ![RTYSH{@L9%7FOJ$D%Z3FSQV](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/e68dede5-bc9e-4781-8971-cb1eb1e6c1bd)
