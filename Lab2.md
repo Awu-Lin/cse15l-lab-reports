@@ -41,6 +41,6 @@ The `handleRequest` methods are called.
 - Same as last problem, use the information in phtot we know that the public key for SSH is `/home/linux/ieng6/cs151fa23/cs151fa23cs/.ssh/id_rsa.pub`
 ## A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/98b606fa-c4ad-4854-92c7-08b48482b67b)
-- base on what phtot shows, i enter into my accont successfully without enter password.
+- base on what phtot shows, I enter into my accont successfully without enter password.
 
 
