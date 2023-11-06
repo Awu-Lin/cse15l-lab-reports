@@ -1,9 +1,13 @@
 ## my code
-![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/2a53ccd5-dbe9-4f2d-8cb1-6c5051367293)
-![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/1fcce3d8-7543-44b8-bd14-3ee3de848d65)
+![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/3888ae7d-b9f7-4b16-86c4-6d50f4f70e8b)
+![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/577cb68e-8670-47d9-b253-5c7bf08ad966)
+
 
 ## When enter the command `localhost:4000/add-message?s=Hello`:
 ![GVLYSJU%7X3OE)~1 NQGWO2](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/5c0f937f-73c1-4aa9-bab6-44460053db17)
+Or Using CURL commannd
+![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/ecccdc07-2be4-41c6-9e0b-c853a08763e5)
+
 
 ### 1. Which methods are called in the code?
 The `handleRequest` method is called.
@@ -22,6 +26,8 @@ The `handleRequest` method is called.
 
 ## When enter the command `localhost:4000/add-message?s=How%20are%20you`:
 ![RTYSH{@L9%7FOJ$D%Z3FSQV](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/e68dede5-bc9e-4781-8971-cb1eb1e6c1bd)
+Or Using CURL commannd
+![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/b44b3f7b-81fa-47dd-886c-5e15deb4a5f4)
 
 ### 1. Which methods are called in the code?
 The `handleRequest` methods are called.
