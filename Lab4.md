@@ -37,7 +37,7 @@ Command ucsd: git&lt;space&gt;config&lt;space&gt;--global&lt;space&gt;user.email
 Command ucsd: git&lt;space&gt;config&lt;space&gt;--global&lt;space&gt;user.name "Benson"&lt;enter&gt;\
 Command ucsd: git&lt;space&gt;commit&lt;space&gt;-m&lt;space&gt;"change&lt;space&gt;from&lt;space&gt;test1&lt;space&gt;to&lt;space&gt;test2"&lt;enter&gt;
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/5ee38f9f-a560-45ec-ab9d-cd462419ea8e)
-The above command sets up my message and adds a comment
+The above command sets up my message and adds a comment \
 Command used: git&lt;space&gt;push&lt;space&gt;-u&lt;space&gt;origin&lt;space&gt;main
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/272c7842-a7f4-42c5-a3d7-8ab73834d0a4)
 Push my changes to github and now I can see my changes in my repository
