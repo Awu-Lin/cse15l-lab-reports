@@ -303,9 +303,6 @@ Example 2: Find all og files in the . /technical directory and append its conten
 22697@Benson MINGW64 ~/Desktop/15/lab3-main/docsearch (main)
 $ find ./technical -type f -name "og*" -exec cat {} \; >> all_logs.txt
 ```
-
-对于第二张图片，它显示了文件内容的一部分，以下是这部分内容的文本表示：
-
 ```markdown
 B-271810
 April 26, 1996
