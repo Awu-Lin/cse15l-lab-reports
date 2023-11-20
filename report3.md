@@ -119,11 +119,11 @@ The fixed code uses a temporary variable temp to hold the value of the replaced 
 This option is used to search by file type. It can be f for normal files, d for directories, etc.
 
 Example 1: Searching the . /technical directory.
-```shell
+```java
 22697@Benson MINGW64 ~/Desktop/15/lab3-main/lab3
 $ find ./technical -type f
 ```
-```plaintext
+```java
 ./technical/biomed/1471-2350-2-2.txt
 ./technical/biomed/1471-2350-2-8.txt
 ./technical/biomed/1471-2350-3-1.txt
@@ -160,7 +160,7 @@ $ find ./technical -type f
 ```
 
 Example 2: Find all directories in the . /technical directory
-```shell
+```java
 22697@Benson MINGW64 ~/Desktop/15/lab3-main/docsearch (main)
 $ find ./technical -type d
 ./technical
@@ -181,11 +181,11 @@ This command finds all directories in the . /technical directory and all directo
 The -name option is used to search by file name.
 
 Example 1: Find all files ending in .txt.
-```shell
+```java
 22697@Benson MINGW64 ~/Desktop/15/lab3-main/docsearch (main)
 $ find ./technical -name "*.txt"
 ```
-```plaintext
+```java
 ./technical/biomed/1471-2334-1-24.txt
 ./technical/biomed/1471-2334-1-9.txt
 ./technical/biomed/1471-2334-2-1.txt
@@ -221,7 +221,7 @@ $ find ./technical -name "*.txt"
 This command finds all files ending in .txt. This is very useful when searching for specific types of files. (Although there are too many txt files in this document)
 
 Example 2: Find all files starting with specific character in the . /technical directory.
-```shell
+```java
 22697@Benson MINGW64 ~/Desktop/15/lab3-main/docsearch (main)
 $ find ./technical -type d
 ./technical
@@ -242,7 +242,7 @@ This command looks for all files that begin with a specific character (chapter i
 The -size option is used to search by file size.
 
 Example 1: Finding files over 150KB in the . /technical directory that is larger than 50KB.
-```shell
+```java
 22697@Benson MINGW64 ~/Desktop/15/lab3-main/docsearch (main)
 $ find ./technical -size +150k
 ./technical/911report/chapter-13.4.txt
@@ -261,7 +261,7 @@ $ find ./technical -size +150k
 This command is used to find files larger than 150KB, very useful for disk cleanup or find large files for analysis.
 
 Example 2: Finding files less than 1MB in the . /technical directory for files less than 1MB in size.
-```shell
+```java
 22697@Benson MINGW64 ~/Desktop/15/lab3-main/docsearch (main)
 $ find ./technical -size -1M
 ./technical
@@ -282,11 +282,11 @@ This command is used to find files that are less than 1MB in size, which helps t
 The -exec option allows commands to be executed for each file found.
 
 Example 1: Delete rr37.txt file in the /technical directory.
-```shell
+```java
 22697@Benson MINGW64 ~/Desktop/15/lab3-main/docsearch (main)
 $ find ./technical -type f -name "og*" -exec cat {} \; >> all_logs.txt
 ```
-```markdown
+```java
 rr73.txt
 rr74.txt
 rr166.txt
@@ -299,11 +299,11 @@ rr196.txt
 This command looks for files ending with rr37.txt and deletes it. This is useful when cleaning up temporary files.
 
 Example 2: Find all og files in the . /technical directory and append its contents to a master log file.
-```shell
+```java
 22697@Benson MINGW64 ~/Desktop/15/lab3-main/docsearch (main)
 $ find ./technical -type f -name "og*" -exec cat {} \; >> all_logs.txt
 ```
-```markdown
+```java
 B-271810
 April 26, 1996
 The Honorable John H. Chafee Chairman The Honorable Max Baucus
