@@ -7,11 +7,6 @@ Because of the permissions I set up earlier, the computer automatically logs int
 ### Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 Command used: git&lt;space&gt;clone&lt;space&gt;git@github.com:Awu-Lin/lab7.git&lt;enter&gt;
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/cd8676e1-23f9-4426-a148-8d056eaa0926)
-Command used: scp&lt;space&gt;-r&lt;space&gt;cs15lfa23xx@ieng6-203:~/lab7 .&lt;enter&gt; (xx is my account number)
-![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/1e6c9e03-005a-41be-85e6-15525861f255)
-![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/d5f8507e-ed12-40ad-b9ed-ed1812d67c2d)
-I painted over my specific account ID in red to keep it mysterious (Haha)\
-So I copied the files I had on the remote server locally for further editing
 
 ### Step 6: Run the tests, demonstrating that they fail
 Command used: cd&lt;space&gt;lab7&lt;enter&gt; (enter into the correct directory)\
@@ -19,11 +14,18 @@ Command used: bash&lt;space&gt;test.sh&lt;enter&gt;
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/078b5bb6-0ffd-4f5c-96e6-eedc6e0e845c)
 
 ### Step 7: Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge)
-Command used: &lt;delete&gt;2&lt;enter&gt; (just change index1 to index2)
-![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/a5a4cac0-c9c6-450b-abb3-79e46f16c459)
+
+Command used: vim&lt;space&gt;ListExamples.java&lt;enter&gt; (open the file in vim)
+![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/96c4b568-e200-4c81-94c7-b0aa59855583)
+![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/cae562ce-3591-4ca6-a8a8-7825111071f3)
+After that we move the cursor to index1 which needs to be modified and use the following command\
+Command used:cindex2&lt;Esc&gt; (change index1 into index2)
+![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/7f5f4325-57fe-4e40-a4f7-51029e714a6b)
+Then we save and quit the vim using following command\
+Command used: :wq!&lt;enter&gt; (To make sure the save does take place I used! Enforcement)
 
 ### Step 8: Run the tests, demonstrating that they now succeed
-Command used: &lt;up&gt;&lt;enter&gt; (return to the previous command to run the test)
+Command used: bash&lt;space&gt;test.sh&lt;enter&gt; (proform the test again)
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/fbaa0924-5ba0-44dd-8870-68ac7c2e060e)
 
 ### Step 9: Commit and push the resulting change to your Github account
