@@ -81,6 +81,14 @@ public class MathOperationsTest {
         double result = MathOperations.calculateAverage(numbers);
         assertEquals("Average calculation should be correct", 0.0, result, 0.001);
     }
+
+    @Test
+    public void testCalculate4() {
+        int[] numbers = {Integer.MAX_VALUE, Integer.MAX_VALUE, -2};
+        double result = MathOperations.calculateAverage(numbers);
+        assertEquals("Average calculation should account for integer overflow", 
+        (double)(Integer.MAX_VALUE - 1), result, 0.001);
+    }
 }
 ```
 
