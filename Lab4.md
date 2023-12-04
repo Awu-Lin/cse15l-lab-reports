@@ -1,6 +1,6 @@
 ### Step 4: Log into ieng6
 
-Command ucse: SSH`<space>`cs15lfa23...(rest of my count information)`<enter>`
+Command ucse: SSH ```<space>``` cs15lfa23...(rest of my count information)`<enter>`
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/e224b41c-a01c-4667-bdc9-2224a5ad749a)
 Because of the permissions I set up earlier, the computer automatically logs into my account after entering the user name.
 
