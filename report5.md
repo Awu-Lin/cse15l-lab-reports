@@ -28,7 +28,7 @@ Here is my completed code\
 I'd be happy to help you with this question; I see that you've added an overflow check to the data to prevent it from overflowing, which is great, but you need to pay attention to the logic of the code when doing the overflow check, and especially think about what it should look like in conjunction with the parts of the code you've already done before. As a suggestion, you can break down each step of the code run and pay attention to the changes in the numbers that occur during those runs.
 
 ### Student 
-Ohhhhh I got it! The problem occurs when count becomes 214748341, and the next step is to multiply it by 10 and add the next number, 2. However, 2147483410 + 2 equals 2147483412, which exceeds Integer.MAX_VALUE, so it will return 0; I fixed the logic of my code to have it check for an overflow before the number is multiplied by 10 and added to the next number Instead of after, it checks to see if it will overflow, and now my test passes successfully. Thank you for your help!
+Ohhhhh I got it! The problem occurs when count becomes 214748341, and the next step is to multiply it by 10 and add the next number, 2. However, 2147483410 + 2 equals 2147483412, which exceeds `Integer.MAX_VALUE`, so it will return 0; I fixed the logic of my code to have it check for an overflow before the number is multiplied by 10 and added to the next number Instead of after, it checks to see if it will overflow, and now my test passes successfully. Thank you for your help!
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/8ee89079-34c6-432c-9c55-ff8e2b63d2d2)
 
 ### TA
@@ -37,7 +37,7 @@ great work!
 ## Summary for step 4: The file & directory structure needed
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/b0885b5e-3a35-4674-820b-c767c71b2f52)
 
-It contains a main folder called "Lab 5". Inside this main folder, there is a subfolder called "lib" and several files. The "lib" folder contains two JAR files: hamcrest-core-1.3.jar and junit-4.12.jar, which are Java libraries commonly used for unit testing. There are also two Java source files in the "Lab 5" folder: Solution.java and SolutionTest.java, which represent a class and its test class, respectively. There is also a script file called run_tests.sh, which is the shell script used to run the tests
+It contains a main folder called "Lab 5". Inside this main folder, there is a subfolder called "lib" and several files. The "lib" folder contains two JAR files: `hamcrest-core-1.3.jar` and `junit-4.12.jar`, which are Java libraries commonly used for unit testing. There are also two Java source files in the "Lab 5" folder: `Solution.java` and `SolutionTest.java`, which represent a class and its test class, respectively. There is also a script file called run_tests.sh, which is the shell script used to run the tests
 
 ### The contents of each file before fixing the bug
 Solution.java (This code is the main code of the reverse program, for example, input 321 will have output 123 and -321 will result in -123)
