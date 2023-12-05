@@ -2,9 +2,9 @@
 ### Student 
 Hello, everyone! I'm currently practicing using a bash script to unify my Junit tests, but I'm having some very strange problems running the script, I'm sure I've put the hamcrest-core and Junit files in the right place but after I run my script it shows the following result
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/d55d0a7a-80f9-4866-921a-647999b26fa0)\
-Currently my catalog is formatted like this and I don't think it should have any problems. Can anyone help me please?
+Currently my catalog is formatted like this and I don't think it should have any problems. Can anyone help me please?\
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/b2f6f229-666f-494e-bb29-60d990825b16)\
-and here is my bash script.
+and here is my bash script.\
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/5d1a6a5e-912f-4423-ae97-48b6f03393be)
 
 
@@ -20,7 +20,7 @@ But even so, in the course of running the test, I realized that I was getting an
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/4fe8b57e-8bb6-4846-9d79-11d33a66e77d)\
 What's also strange is that my test passed when dealing with overflow, so I'm wondering why this test is now giving me an error cause 2147483412 is acturallly in the range of int.
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/95d693c7-c7f3-416c-a976-e59d085a78d4)
-Here is my completed code
+Here is my completed code\
 ![image](https://github.com/Awu-Lin/cse15l-lab-reports/assets/94472422/64b98f58-7d66-4088-8fed-ea2340863911)
 
 
